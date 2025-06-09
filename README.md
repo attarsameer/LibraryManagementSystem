@@ -32,12 +32,7 @@ Add, remove, and list books.
 
 Admin authentication for secure access.
 
-User Features:
-Borrow books if available.
 
-Return borrowed books.
-
-List available books.
 
 Exception Handling:
 Custom exceptions like BookNotFoundException are thrown when a user tries to borrow a non-existent or unavailable book.
@@ -97,11 +92,4 @@ Admin Menu:
 2
 Enter Book ISBN to remove: 99999
 Book with ISBN 99999 not found.
-Future Improvements
-Database Integration: Integrate a relational database (MySQL, SQLite) to persist book and user data.
 
-Graphical User Interface (GUI): Implement a GUI using JavaFX to provide a user-friendly interface.
-
-Multiple Libraries: Extend the system to handle multiple libraries and branches.
-
-Due Dates & Late Fees: Implement due dates for borrowed books and calculate late fees for overdue books.
